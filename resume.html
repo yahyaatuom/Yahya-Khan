@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yahya Khan · Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #eef2f5;
+      font-family: 'Inter', sans-serif;
+      padding: 2rem;
+    }
+    .resume {
+      max-width: 850px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      padding: 2rem;
+    }
+    h1 { font-size: 2rem; font-weight: 700; color: #0a2942; }
+    .subhead { color: #2c7da0; font-weight: 500; margin: 0.25rem 0 0.5rem; }
+    .contact { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0; padding: 0.75rem 0; border-top: 1px solid #e9edf2; border-bottom: 1px solid #e9edf2; font-size: 0.8rem; }
+    .contact span, .contact a { color: #4a627a; text-decoration: none; }
+    .section { margin: 1.5rem 0; }
+    .section-title { font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2c7da0; border-bottom: 2px solid #e4e9f0; padding-bottom: 0.4rem; margin-bottom: 0.8rem; font-size: 0.85rem; }
+    .flex-2col { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+    .col { flex: 1; }
+    .project { margin-bottom: 1rem; }
+    .project-title { font-weight: 700; font-size: 0.9rem; color: #0f2f44; }
+    .project-meta { font-size: 0.7rem; color: #2c7da0; margin-bottom: 0.25rem; }
+    .project-desc { font-size: 0.8rem; color: #3e5a76; line-height: 1.4; }
+    .skill-tag { display: inline-block; background: #eff3f8; padding: 0.2rem 0.7rem; border-radius: 20px; font-size: 0.7rem; margin: 0.2rem 0.2rem; }
+    .edu-item { margin-bottom: 0.8rem; }
+    .edu-degree { font-weight: 700; font-size: 0.85rem; }
+    .edu-school { font-size: 0.75rem; color: #2c7da0; }
+    .edu-date { font-size: 0.7rem; color: #7c8ea0; }
+    hr { margin: 0.5rem 0; border: none; height: 1px; background: #eef2f8; }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .resume { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="resume">
+  <h1>YAHYA KHAN</h1>
+  <div class="subhead">AI Researcher · Computer Science Student</div>
+  <div class="contact">
+    <span>📍 Abu Dhabi, UAE</span>
+    <span>📞 +971 50 380 8939</span>
+    <span>📞 +92 319 9977076</span>
+    <span>✉️ yahypak2006@gmail.com</span>
+  </div>
+
+  <div class="section">
+    <div class="section-title">SUMMARY</div>
+    <p style="font-size: 0.85rem; color: #3e5a76;">CS undergraduate specializing in <strong>Causal AI & Neuro-symbolic systems</strong>. 4.0 GPA (recent semester). Experienced in LLM verification and causal reasoning research. Published research submitted to <em>Expert Systems with Applications</em>.</p>
+  </div>
+
+  <div class="flex-2col">
+    <div class="col">
+      <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="edu-item">
+          <div class="edu-degree">BSCS, University of Malakand</div>
+          <div class="edu-school">2024–2028 | GPA: 4.0 (Sem 3), 3.84, 3.63</div>
+          <div class="edu-date">🏅 PM Laptop Scheme Nominee</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">HSSC, SKBZAPS Abu Dhabi</div>
+          <div class="edu-school">2022–2024 | Head Boy (2023–24)</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">SKILLS</div>
+        <div><span class="skill-tag">Python</span><span class="skill-tag">C++</span><span class="skill-tag">Causal Inference</span><span class="skill-tag">AI Safety</span><span class="skill-tag">Neuro-symbolic AI</span><span class="skill-tag">LLM Evaluation</span><span class="skill-tag">Linux/Bash</span><span class="skill-tag">Cisco Packet Tracer</span></div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">LANGUAGES</div>
+        <div><span class="skill-tag">English</span><span class="skill-tag">Arabic</span><span class="skill-tag">Urdu</span><span class="skill-tag">Pashto</span></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="section">
+        <div class="section-title">RESEARCH & PROJECTS</div>
+        <div class="project">
+          <div class="project-title">Causal-Guard: Neuro-Symbolic LLM Verification</div>
+          <div class="project-desc">Logic-based framework validating causal consistency of LLM explanations for transportation safety. Integrates symbolic reasoning with neural models.</div>
+        </div>
+        <div class="project">
+          <div class="project-title">Causal Reasoning in LLMs (Deforestation)</div>
+          <div class="project-meta">📄 Submitted to Expert Systems with Applications</div>
+          <div class="project-desc">Constraint-based evaluation diagnosing causal reasoning failures in LLM-generated environmental attributions.</div>
+        </div>
+        <div class="project">
+          <div class="project-title">Python Tools: Password Generator · BMI Calculator</div>
+          <div class="project-desc">Secure automation tools demonstrating Python proficiency.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">CERTIFICATIONS</div>
+        <div style="font-size: 0.8rem;">• Google Digital Garage — Digital Marketing<br>• Head Boy Leadership Award (2023–24)<br>• Global Warming Awareness · World Reading Day</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div style="font-size: 0.7rem; color: #8a9bb0; text-align: center;">📄 Full CV available upon request · EID: 784-2006-0281595-1</div>
+</div>
+</body>
+</html>
